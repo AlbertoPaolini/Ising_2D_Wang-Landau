@@ -35,6 +35,7 @@ The Wang-Landau algorithm is as follows:
 9. We proceed with the random walk in energy space until we obtain a "flat" histogram H(E), then we reduce the modificator factor. We suggest f->√f .
 10. The steps 5-9 are repeated until f<f<sub>Threshold</sub>.
 
+Because g(E) becomes very large, in practice it is preferable to work with the logarithm of the density of states, so that all possible ln g(E) will fit into double precision numbers.
 ## Structure
 
 - `Spins`: Class representing a spin with its position and value (+1 or -1).
