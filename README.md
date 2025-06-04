@@ -17,7 +17,7 @@ This simulation performs the following steps:
 
 1. Initialize a 2D lattice of spins with random configuration.
 2. Perform the Wang-Landau algorithm to estimate the density of states.
-3. Compute average energy <E>, energy variance <E^2> - <E>^2, and specific heat for a range of temperatures from 0.5 to 4.1.
+3. Compute average energy <E>, energy variance <E^2> - < E >^2, and specific heat for a range of temperatures from 0.5 to 4.1.
 4. Repeat simulations for different lattice sizes and save the data.
 
 ## Wang-Langau algorithm
